@@ -1,4 +1,6 @@
 // Import tests
-import "./Parameterized Tests/simpleParameterized.test";
-import "./Unit Tests/simple.test";
-import "./Parameterized Tests/simpleString.test";
+import "./Parameterized Tests/simpleParameterized.test.ts";
+import "./Unit Tests/simple.test.ts";
+import "./Parameterized Tests/simpleString.test.ts";
+import "./Parameterized Tests/simpleArrayNumber.test.ts";
+import "./Parameterized Tests/simpleArrayNumber.test.ts";

@@ -10,3 +10,9 @@ export function legalAge(a: number): boolean {
 export function ConcatStrings(a: string, b: string): string {
   return a.concat(b);
 }
+export function ConcatArrayNumbers(
+  a: Array<number>,
+  b: Array<number>
+): Array<number> {
+  return a.concat(b);
+}
