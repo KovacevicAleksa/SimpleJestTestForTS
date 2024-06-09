@@ -7,3 +7,6 @@ export function getString(a: string, b: string): string {
 export function legalAge(a: number): boolean {
   return a >= 18 ? true : false;
 }
+export function ConcatStrings(a: string, b: string): string {
+  return a.concat(b);
+}
