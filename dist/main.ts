@@ -16,9 +16,13 @@ export function ConcatArrayNumbers(
 ): Array<number> {
   return a.concat(b);
 }
+interface CatFact {
+  fact: string;
+  length: number;
+}
 
-export async function http(request: RequestInfo): Promise<any> {
-  const response = await fetch(request);
-  const body = await response.json();
-  return body;
+export async function fetchData(): Promise<CatFact> {
+  const response = await fetch("https://catfact.ninja/fact");
+  const data = await response.json();
+  return data as CatFact;
 }
