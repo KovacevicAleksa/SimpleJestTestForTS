@@ -10,6 +10,11 @@ export function legalAge(a: number): boolean {
 export function ConcatStrings(a: string, b: string): string {
   return a.concat(b);
 }
+export function sortObjectsByPrice(
+  a: { price: number }[]
+): { price: number }[] {
+  return a.sort((obj1, obj2) => obj1.price - obj2.price);
+}
 export function ConcatArrayNumbers(
   a: Array<number>,
   b: Array<number>
