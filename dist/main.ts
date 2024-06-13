@@ -31,3 +31,12 @@ export async function fetchData(): Promise<CatFact> {
   const data = await response.json();
   return data as CatFact;
 }
+//FOR TEST
+export function getRandomNumber(min: number, max: number): number {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+export function isChrome(): boolean {
+  const userAgent = navigator.userAgent.toLowerCase();
+  return userAgent.includes("chrome") && !userAgent.includes("edge");
+}
