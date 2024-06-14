@@ -40,3 +40,7 @@ export function isChrome(): boolean {
   const userAgent = navigator.userAgent.toLowerCase();
   return userAgent.includes("chrome") && !userAgent.includes("edge");
 }
+
+export function isEven(num: number): boolean {
+  return num % 2 === 0;
+}
