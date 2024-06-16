@@ -5,3 +5,5 @@ import "./Parameterized Tests/simpleString.test.ts";
 import "./Parameterized Tests/simpleArrayNumber.test.ts";
 import "./Unit Tests/fetchCat.test.ts";
 import "./Parameterized Tests/getRandomNumber.test.ts";
+import "./Parameterized Tests/isEven.test.ts";
+import "./Parameterized Tests/isChrome.test.ts";

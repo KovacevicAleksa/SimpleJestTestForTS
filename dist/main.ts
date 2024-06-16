@@ -38,7 +38,11 @@ export function getRandomNumber(min: number, max: number): number {
 
 export function isChrome(): boolean {
   const userAgent = navigator.userAgent.toLowerCase();
-  return userAgent.includes("chrome") && !userAgent.includes("edge");
+  return (
+    userAgent.includes("chrome") &&
+    !userAgent.includes("edge") &&
+    !userAgent.includes("edg")
+  );
 }
 
 export function isEven(num: number): boolean {
